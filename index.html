@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <!-- codigo de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h2 class="parrafo text-center">Registrar usuario</h2>
+    <br /><br />
+
+    <div class="container bg-light">
+      <form method="POST" name="form-work" action="./guardar.php">
+
+        <label for="nombr">
+        Nombres:<input type="text" name="nombre" id="nombr" /> <br />
+        <label for="ape">
+        Apellidos:<input type="text" name="apellido" id="ape" /><br />
+        <label for="ed4d">
+        Edad:<input type="text" name="edad" id="ed4d"/> <br />
+       <label for="correo">
+        Correo:<input type="text" name="email" id="correo"/><br />
+        <input type="submit" value="Registrar" class="boton bg-info" /><br />
+      </form>
+    </div>
+
+
+
+  </body>
+</html>
