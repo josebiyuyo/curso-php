@@ -20,8 +20,8 @@ $conection= mysqli_connect('localhost','root','2021','listname');
      <div class="container bg-light text-center">
     <table>
         <tr>
-         <td><h4>Nombre:  </h4></td>
-         <td><h4>Apellido:  </h4></td>
+         <td><h4>Nombre: </h4></td>
+         <td><h4>Apellido: </h4></td>
          <td><h4>Edad:  </h4></td>
          <td><h4>Correo:  </h4></td>
         </tr>
